@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedLibrary1.Shared", "SharedLibrary1\SharedLibrary1.Shared\SharedLibrary1.Shared.vcxitems", "{14EAB0E0-7671-4C94-AAF7-DE9CB23C9415}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedLibrary1.Android", "SharedLibrary1\SharedLibrary1.Android\SharedLibrary1.Android.vcxproj", "{065F9045-3BDC-41C8-961E-DEDABB38D8DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedLibrary1.iOS", "SharedLibrary1\SharedLibrary1.iOS\SharedLibrary1.iOS.vcxproj", "{3E0F0A58-C000-44DC-9030-325EB879AB8C}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedLibrary1\SharedLibrary1.Shared\SharedLibrary1.Shared.vcxitems*{065f9045-3bdc-41c8-961e-dedabb38d8dd}*SharedItemsImports = 4
+		SharedLibrary1\SharedLibrary1.Shared\SharedLibrary1.Shared.vcxitems*{14eab0e0-7671-4c94-aaf7-de9cb23c9415}*SharedItemsImports = 9
+		SharedLibrary1\SharedLibrary1.Shared\SharedLibrary1.Shared.vcxitems*{3e0f0a58-c000-44dc-9030-325eb879ab8c}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|ARM.ActiveCfg = Debug|ARM
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|ARM.Build.0 = Debug|ARM
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|ARM64.Build.0 = Debug|ARM64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|x64.ActiveCfg = Debug|x64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|x64.Build.0 = Debug|x64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|x86.ActiveCfg = Debug|x86
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Debug|x86.Build.0 = Debug|x86
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|ARM.ActiveCfg = Release|ARM
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|ARM.Build.0 = Release|ARM
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|ARM64.ActiveCfg = Release|ARM64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|ARM64.Build.0 = Release|ARM64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|x64.ActiveCfg = Release|x64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|x64.Build.0 = Release|x64
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|x86.ActiveCfg = Release|x86
+		{065F9045-3BDC-41C8-961E-DEDABB38D8DD}.Release|x86.Build.0 = Release|x86
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|ARM.Build.0 = Debug|ARM
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|ARM64.Build.0 = Debug|ARM64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|x64.ActiveCfg = Debug|x64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|x64.Build.0 = Debug|x64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|x86.ActiveCfg = Debug|x86
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Debug|x86.Build.0 = Debug|x86
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|ARM.ActiveCfg = Release|ARM
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|ARM.Build.0 = Release|ARM
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|ARM64.ActiveCfg = Release|ARM64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|ARM64.Build.0 = Release|ARM64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|x64.ActiveCfg = Release|x64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|x64.Build.0 = Release|x64
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|x86.ActiveCfg = Release|x86
+		{3E0F0A58-C000-44DC-9030-325EB879AB8C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
